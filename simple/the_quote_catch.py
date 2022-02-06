@@ -1,0 +1,1 @@
+print("he said "the day is fine" and dies.")
