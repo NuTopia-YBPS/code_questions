@@ -1,17 +1,14 @@
-
 def greatest_number(*args):
 
-    highest = 0
+    highest = 0 # = args[0]
     for i in args:
-        if highest < i:
-            highest == i
+        if highest > i: # < i 
+            highest == i # = i
 
     return highest
 
 if __name__ == "__main__":
 
-    a = int(input("enter the number: "))
-    b = int(input("enter the number2: "))
-    c = int(input("enter the number3: "))
+    a, b, c = -1, -5, -10
 
     print("the greatest number is", greatest_number(a, b, c))
